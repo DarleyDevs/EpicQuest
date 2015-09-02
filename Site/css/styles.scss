@@ -1,5 +1,26 @@
-$red: #FF0000;
+$codGray: #0A0A0A;
+$gallery: #EFEFEF;
+$astral: #348AA7;
+$astronaut: #033860;
+$congress: #004385;
+$jacaranda: #630460;
+$tyrian: #6C0240;
 
-h1 {
-    color: $red;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    text-align: center;
+}
+
+#uno {
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    background: $gallery;
+      h1 {
+          color: $codGray;
+      }
 }

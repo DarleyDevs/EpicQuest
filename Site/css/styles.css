@@ -1,1 +1,16 @@
-/* sass file */
+* {
+  margin: 0;
+  padding: 0; }
+
+section {
+  text-align: center; }
+
+#uno {
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+  background: #EFEFEF; }
+  #uno h1 {
+    color: #0A0A0A; }
+
+/*# sourceMappingURL=styles.css.map */

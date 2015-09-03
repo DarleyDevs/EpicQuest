@@ -36,10 +36,9 @@ $btnW: 100px;
               display: block;
               margin: 0 auto 2% auto;
           }
-          p {
+          h2 {
               padding: 3%;
               text-align: center;
-              font-size: $pSize;
               color: $gallery;
           }
           .button {
@@ -62,14 +61,19 @@ $btnW: 100px;
       h1 {
           color: $gallery;
           text-align: center;
-          font-size: 8rem;
-          text-transform: uppercase;
           padding: 3%;
           margin: 0 auto;
       }
       img {
-          width: 85%;
+          width: 75%;
+          padding: 5% 15%;
+          margin: 0 auto;
       }
+      p {
+          color: $gallery;
+          text-align: center;
+      }
+          
 }
 
 .section3 {

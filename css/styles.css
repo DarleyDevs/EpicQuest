@@ -20,10 +20,9 @@
       width: 40%;
       display: block;
       margin: 0 auto 2% auto; }
-    .section1 #uno p {
+    .section1 #uno h2 {
       padding: 3%;
       text-align: center;
-      font-size: 2.5rem;
       color: #EFEFEF; }
     .section1 #uno .button {
       margin: 0 auto;
@@ -41,12 +40,15 @@
   .section2 h1 {
     color: #EFEFEF;
     text-align: center;
-    font-size: 8rem;
-    text-transform: uppercase;
     padding: 3%;
     margin: 0 auto; }
   .section2 img {
-    width: 85%; }
+    width: 75%;
+    padding: 5% 15%;
+    margin: 0 auto; }
+  .section2 p {
+    color: #EFEFEF;
+    text-align: center; }
 
 .section3 {
   background: linear-gradient(#348AA7, #EFEFEF); }

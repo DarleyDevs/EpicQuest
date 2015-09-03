@@ -5,22 +5,79 @@ $astronaut: #033860;
 $congress: #004385;
 $jacaranda: #630460;
 $tyrian: #6C0240;
+$h1Size: 6rem;
+$pSize: 2.5rem;
+$btnH: 100px;
+$btnW: 100px;
 
 * {
     margin: 0;
     padding: 0;
 }
 
-section {
-    text-align: center;
+#fp-nav ul li a span {
+    background: $tyrian;
+    color: $tyrian;
 }
 
-#uno {
-    width: 100%;
-    padding: 5%;
-    text-align: center;
+.section {
+    padding: 2%;
     background: $gallery;
+}
+
+.section1 {
+    background: linear-gradient($codGray, $astronaut);
+      #uno {
+        width: 80%;
+        margin: 0 auto;
+        padding: 4%;
+          img {
+              width: 40%;
+              display: block;
+              margin: 0 auto 2% auto;
+          }
+          p {
+              padding: 3%;
+              text-align: center;
+              font-size: $pSize;
+              color: $gallery;
+          }
+          .button {
+              margin: 0 auto;
+              padding: 2%;
+              color: $gallery;
+              text-align: center;
+              width: $btnW;
+                .glyphicon {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 4em;
+                }
+          }
+    }
+}
+
+.section2 {
+    background: linear-gradient($astronaut, $astral);
       h1 {
-          color: $codGray;
+          color: $gallery;
+          text-align: center;
+          font-size: 8rem;
+          text-transform: uppercase;
+          padding: 3%;
+          margin: 0 auto;
       }
+      img {
+          width: 85%;
+      }
+}
+
+.section3 {
+    background: linear-gradient($astral, $gallery);
+      #tres {
+      }
+}
+
+.section4 {
+    background-color: $gallery;
 }

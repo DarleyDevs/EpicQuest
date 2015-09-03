@@ -21,16 +21,42 @@
     <![endif]-->
 </head>
 <body>
-    
-    <nav>
-        
-    </nav>
 
     <div id="fullpage">
-        <div class="section">Whatever</div>
-        <div class="section">Whatever</div>
-        <div class="section">Whatever</div>
-        <div class="section">Whatever</div>
+        <div class="section section1">
+        
+            <div id="uno">
+            
+                <img src="img/logo_epicQuest_white.png">
+                
+                <p>Epic Quest is just what you need to get motivated. Jump start your productivity by completing simple quests. The more quests you complete the more experience you gain! Gain experience to level up!</p>
+                
+                <a href="#secondPage"><div class="button"><span class="glyphicon glyphicon-chevron-down"></span></div></a>
+                
+            </div>
+            
+        </div>
+        <div class="section section2">
+        
+            <div class="container dos">
+                
+                <h1>Choose your fate!</h1>
+                
+                <div class="col-xs-4">
+                    <img src="img/easy.png" class="img-responsive">
+                </div>
+                <div class="col-xs-4">
+                    <img src="img/medium.png" class="img-responsive">
+                </div>
+                <div class="col-xs-4">
+                    <img src="img/epic.png" class="img-responsive">
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="section section3">Whatever</div>
+        <div class="section section4">Whatever</div>
     </div>
 
 
@@ -49,7 +75,10 @@
                 lockAnchors: false,
                 anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
                 navigation: true,
-                navigationPosition: top
+                navigationPosition: 'right',
+                
+                controlArrows: true,
+                verticalCentered: true
             });
         });
         

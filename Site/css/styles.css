@@ -2,15 +2,56 @@
   margin: 0;
   padding: 0; }
 
-section {
-  text-align: center; }
+#fp-nav ul li a span {
+  background: #6C0240;
+  color: #6C0240; }
 
-#uno {
-  width: 100%;
-  padding: 5%;
-  text-align: center;
+.section {
+  padding: 2%;
   background: #EFEFEF; }
-  #uno h1 {
-    color: #0A0A0A; }
+
+.section1 {
+  background: linear-gradient(#0A0A0A, #033860); }
+  .section1 #uno {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4%; }
+    .section1 #uno img {
+      width: 40%;
+      display: block;
+      margin: 0 auto 2% auto; }
+    .section1 #uno p {
+      padding: 3%;
+      text-align: center;
+      font-size: 2.5rem;
+      color: #EFEFEF; }
+    .section1 #uno .button {
+      margin: 0 auto;
+      padding: 2%;
+      color: #EFEFEF;
+      text-align: center;
+      width: 100px; }
+      .section1 #uno .button .glyphicon {
+        margin: 0;
+        padding: 0;
+        font-size: 4em; }
+
+.section2 {
+  background: linear-gradient(#033860, #348AA7); }
+  .section2 h1 {
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 8rem;
+    text-transform: uppercase;
+    padding: 3%;
+    margin: 0 auto; }
+  .section2 img {
+    width: 85%; }
+
+.section3 {
+  background: linear-gradient(#348AA7, #EFEFEF); }
+
+.section4 {
+  background-color: #EFEFEF; }
 
 /*# sourceMappingURL=styles.css.map */

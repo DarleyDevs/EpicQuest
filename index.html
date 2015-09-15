@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,8 +22,26 @@
     <![endif]-->
 </head>
 <body>
-
+    <nav class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#firstPage"><img src="img/logo_long.png"></a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobileNav" aria-expanded="false" aria-controls="navbar">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+            </div>
+            <div id="mobileNav" class="navbar-collapse collapse pull-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#firstPage">ABOUT</a></li>
+                    <li><a href="#secondPage">FEATURES</a></li>
+                    <li><a href="#thirdPage">LEARN MORE</a></li>
+                    <li><a href="#fourthPage">TRY IT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div id="fullpage">
+        
         <div class="section section1">
         
             <div id="uno">
@@ -41,18 +60,20 @@
 <!--            <div class="container">-->
                 
                 <h1>Choose your fate!</h1>
+            
+                <p>Select your difficulty:</p>
                 
-                <div class="col-sm-4">
+                <div class="col-sm-2 col-sm-offset-3">
                     <img src="img/easy.png" class="img-responsive">
-                    <p><em>1</em> quest per day</p>
+                    <p>1 quest per day</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-2">
                     <img src="img/medium.png" class="img-responsive">
-                    <p><em>2</em> quests per day</p>
+                    <p>2 quests per day</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-2">
                     <img src="img/epic.png" class="img-responsive">
-                    <p><em>3</em> quests per day</p>
+                    <p>3 quests per day</p>
                 </div>
                 
 <!--            </div>-->

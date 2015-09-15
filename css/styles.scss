@@ -15,9 +15,59 @@ $btnW: 100px;
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: none;
+}
+
+body.fp-viewing-firstPage, body.fp-viewing-secondPage, body.fp-viewing-thirdPage, body.fp-viewing-fourthPage {
+    background: none;
+}
+
 #fp-nav ul li a span {
     background: $tyrian;
     color: $tyrian;
+}
+
+.navbar {
+    height: 50px;
+    padding: 0;
+    background-color: $codGray;
+    font-family: 'Roboto', sans-serif;
+    color: $gallery;
+    font-size: 1.6rem;
+      img {
+          height: 100%;
+          display: block;
+          padding: 0;
+          margin: 0;
+          vertical-align: top;
+      }
+      img:hover {
+          opacity: .7;
+      }
+      a {
+          color: $gallery;
+          font-weight: 900;
+      }
+      a:hover {
+          color: $codGray;
+          border-bottom: 10px solid $astral;
+      }
+      ul {
+        li {
+            background: none;
+            box-sizing: padding-box;
+              a:focus {
+                  background: $gallery;
+                  color: $codGray;
+                  border-bottom: 10px solid $jacaranda;
+              }
+        }
+      }
 }
 
 .section {
@@ -58,20 +108,27 @@ $btnW: 100px;
 
 .section2 {
     background: linear-gradient($astronaut, $astral);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
       h1 {
           color: $gallery;
           text-align: center;
           padding: 3%;
           margin: 0 auto;
+          font-size: 5rem;
+          font-weight: 900;
       }
       img {
-          width: 75%;
-          padding: 5% 15%;
-          margin: 0 auto;
+          width: 100%;
+          margin: 0 auto 1.5rem auto;
       }
       p {
           color: $gallery;
           text-align: center;
+          font-size: 2.5rem;
+      }
+      .col-sm-2 p {
+          text-transform: uppercase;
       }
           
 }

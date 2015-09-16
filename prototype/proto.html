@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Epic Quest Prototype</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900italic,900,700italic,400italic' rel='stylesheet' type='text/css'>
+
+    <link href="css/proto.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    
+    <div id="btnz">
+        <button id="page1">Active Quests</button><!--
+        --><button id="page2">New Quest</button><!--
+        --><button id="page3">Profile</button><!--
+        --><button id="page4">Settings</button>
+    </div>
+    
+    
+    <div id="mainContainer">
+        <div id="pageContainer">
+
+            <div class="page loading tippytop">
+                <img src="img/white_logo.png">
+                loading...
+            </div><!-- end of loading page -->
+
+            <div class="page p1">
+                <div id="qTop">
+                    <img src="img/avatar.png">
+                    <div id="qTopWords">
+                        <div class="user">Darles Barkley </div>
+                        <div class="level">level 4</div>
+                        <div class="motto">There's always money in the banana stand</div>
+                    </div>
+                </div><!-- end of qTop -->
+
+                <div id="activeQ">
+                    <div class="heading">ACTIVE QUESTS</div>
+                    <div class="item">
+                        <div class="qName">Gone in Schwifty Seconds</div>
+                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        <button><img src="img/arrowRight.png"></button>
+                    </div>
+
+                    <div class="item">
+                        <div class="qName">Gone in Schwifty Seconds</div>
+                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        <button><img src="img/arrowRight.png"></button>
+                    </div>
+
+                    <div class="item">
+                        <div class="qName">Gone in Schwifty Seconds</div>
+                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        <button><img src="img/arrowRight.png"></button>
+                    </div>
+
+                </div>
+
+                <div id="completedQ">
+                    <div class="heading">COMPLETED QUESTS</div>
+                    <div class="item">
+                        <div class="qName">Gone in Schwifty Seconds</div>
+                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        <button><img src="img/arrowRight.png"></button>
+                    </div>
+
+                    <div class="item">
+                        <div class="qName">Gone in Schwifty Seconds</div>
+                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        <button><img src="img/arrowRight.png"></button>
+                    </div>
+
+                    <div class="item">
+                        <div class="qName">Gone in Schwifty Seconds</div>
+                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        <button><img src="img/arrowRight.png"></button>
+                    </div>
+
+                </div>
+            </div><!-- end of quest page -->
+            <div class="page p2">
+            
+                <img src="img/illustration-01.png">
+            
+            </div><!-- end of new quest page -->
+            <div class="page p3"></div><!-- end of profile page -->
+            <div class="page p4"></div><!-- end of settings page -->
+            
+        </div>
+
+    </div><!-- end of main container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/proto.js"></script>
+</body>
+</html>

@@ -70,6 +70,24 @@ body.fp-viewing-firstPage, body.fp-viewing-secondPage, body.fp-viewing-thirdPage
       }
 }
 
+.button {
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: $gallery;
+    text-align: center;
+    width: $btnW;
+    height: $btnW;
+    background-color: $tyrian;
+    border-radius: $btnW;
+    box-shadow: 0px 0px 25px -5px $codGray;
+        .glyphicon {
+            margin: 0;
+            padding: 0;
+            font-size: 4em;
+            line-height: $btnW;
+        }
+}
+
 .section {
     padding: 2%;
     background: $gallery;
@@ -77,33 +95,19 @@ body.fp-viewing-firstPage, body.fp-viewing-secondPage, body.fp-viewing-thirdPage
 
 .section1 {
     background: linear-gradient($codGray, $astronaut);
-      #uno {
-        width: 80%;
-        margin: 0 auto;
-        padding: 4%;
-          img {
-              width: 40%;
-              display: block;
-              margin: 0 auto 2% auto;
-          }
-          h2 {
-              padding: 3%;
-              text-align: center;
-              color: $gallery;
-          }
-          .button {
-              margin: 0 auto;
-              padding: 2%;
-              color: $gallery;
-              text-align: center;
-              width: $btnW;
-                .glyphicon {
-                    margin: 0;
-                    padding: 0;
-                    font-size: 4em;
-                }
-          }
-    }
+    width: 80%;
+    margin: 0 auto;
+    padding: 4%;
+      img {
+          width: 40%;
+          display: block;
+          margin: 0 auto 2% auto;
+      }
+      h2 {
+          padding: 3%;
+          text-align: center;
+          color: $gallery;
+      }
 }
 
 .section2 {
@@ -130,15 +134,62 @@ body.fp-viewing-firstPage, body.fp-viewing-secondPage, body.fp-viewing-thirdPage
       .col-sm-2 p {
           text-transform: uppercase;
       }
-          
 }
 
 .section3 {
     background: linear-gradient($astral, $gallery);
-      #tres {
+      img {
+          width: 100%;
+          box-shadow: 0px 0px 25px -5px $codGray;
+      }
+      h1 {
+          color: $codGray;
+          text-align: center;
+          padding: 3%;
+          margin: 0 auto;
+          font-size: 5rem;
+          font-weight: 900;
+      }
+      p { 
+          color: $codGray;
+          text-align: center;
+          font-size: 2.5rem;
+          font-weight: 900;
       }
 }
 
 .section4 {
     background-color: $gallery;
+      h1 {
+          color: $codGray;
+          text-align: center;
+          padding: 3%;
+          margin: 0 auto;
+          font-size: 5rem;
+          font-weight: 900;
+      }
+      p { 
+          color: $codGray;
+          text-align: center;
+          font-size: 2.5rem;
+          font-weight: 900;
+      }
+      img {
+          width: 100%;
+          box-shadow: 0px 0px 25px -5px $codGray;
+      }
+      #tryIt {
+          width: 200px;
+          height: 80px;
+          border: none;
+          background: linear-gradient($jacaranda, $tyrian);
+          color: $gallery;
+          box-shadow: 0px 0px 25px -5px $codGray;
+          font-family: 'Roboto', sans-serif;
+          font-size: 2rem;
+          font-weight: 900;
+          text-align: center;
+          display: block;
+          margin: 0 auto;
+      }
 }

@@ -1,0 +1,161 @@
+$cod: #0A0A0A;
+$gallery: #EFEFEF;
+$astro: #033860;
+$congress: #004385;
+$astral: #348AA7;
+$bright: #00bfff;
+$lightGray: #535454;
+$medGray: #383838;
+$jacaranda: #630460;
+$tyrian: #6C0240;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient($cod, $medGray);
+    height: 100vh;
+}
+
+#btnz {
+    background: $gallery;
+    width: 540px;
+    margin: 0 auto;
+    border: 2px solid $gallery;
+    color: $gallery;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+      button {
+          display: inline-block;
+          width: 25%;
+          border: none;
+          border-right: 2px solid $gallery;
+          padding: 6px;
+          background: linear-gradient($jacaranda, $tyrian);
+      }
+      button:last-of-type {
+            border: none;
+        }
+}
+
+#mainContainer {
+    background-color: $gallery;
+    margin: 0 auto;
+    width: 540px;
+    height: 960px;
+    display: block;
+    overflow: hidden;
+        #pageContainer {
+            width: 2160px;
+            display: block;
+            position: relative;
+            left: 0;
+            .tippytop {
+                z-index: 1000;
+            }
+            .page {
+                width: 540px;
+                height: 960px;
+                display: block;
+                float: left;
+            }
+            .loading {
+                background: linear-gradient($astro, $congress);
+                color: $gallery;
+                position: absolute;
+                padding-top: 265px;
+                text-align: center;
+                font-size: 60px;
+                font-weight: 900;
+                    img {
+                        width: 400px;
+                        margin: 0 auto 40px;
+                        display: block;
+                    }
+            }
+            .p1 {
+                background-color: $gallery;
+                    #qTop {
+                        height: 225px;
+                        padding: 40px;
+                        color: $gallery;
+                        border-bottom: 15px solid $astral;
+                        background: linear-gradient($astro, $congress);
+                            img {
+                                width: 150px;
+                                border-radius: 75px;
+                                border: solid 5px $gallery;
+                                display: inline-block;
+                                position: relative;
+                            }
+                            #qTopWords {
+                                padding-top: 20px;
+                                display: inline-block;
+                                position: relative;
+                                text-align: right;
+                                float: right;
+                                font-weight: 900;
+                                    .user {
+                                        font-size: 32px;
+                                        border-bottom: 3px solid $gallery;
+                                        text-transform: uppercase;
+                                    }
+                                    .level {
+                                        font-size: 24px;
+                                        text-transform: lowercase;
+                                    }
+                                    .motto {
+                                        font-size: 12px;
+                                        text-transform: uppercase;
+                                    }
+                            }
+                    }
+                    .heading {
+                        background: linear-gradient($medGray, $lightGray);
+                        height: 75px;
+                        width: 100%;
+                        color: $gallery;
+                        text-align: center;
+                        font-weight: 900;
+                        font-size: 30px;
+                        line-height: 75px;
+                    }
+                    .item {
+                        height: 100px;
+                        border-bottom: $lightGray + 100 dashed 3px;
+                        padding: 25px;
+                        position: relative;
+                            .qName {
+                                color: $cod;
+                                font-weight: 900;
+                                font-size: 24px;
+                                text-transform: uppercase;
+                            }
+                            .qDesc {}
+                            button {
+                                background-color: $astral;
+                                position: absolute;
+                                right: 25px;
+                                top: 14px;
+                                border: none;
+                                height: 65px;
+                                width: 65px;
+                                border-radius: 65px;
+                                    img {
+                                        padding: 1px;
+                                        width: 100%;
+                                    }
+                            }
+                    }
+                    .item:last-child {
+                        border-bottom: none;
+                    }
+            }
+            .p2 {
+                background: linear-gradient($bright, $astral);
+                  img {
+                      width: 311px;
+                      margin: 0 auto;
+                  }
+            }
+        }
+        
+}

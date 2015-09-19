@@ -41,7 +41,7 @@
 
             <div class="page p1">
                 <div id="qTop">
-                    <img src="img/avatar.png">
+                    <img id="mainAv" src="img/avatar.png">
                     <div id="qTopWords">
                         <div class="user">Darles Barkley </div>
                         <div class="level">level 4</div>
@@ -58,14 +58,14 @@
                     </div>
 
                     <div class="item">
-                        <div class="qName">Gone in Schwifty Seconds</div>
-                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        <div class="qName">SERENADE YOUR CAT</div>
+                        <div class="qDesc">Sing a song to your feline friend</div>
                         <button><img src="img/arrowRight.png"></button>
                     </div>
 
                     <div class="item">
-                        <div class="qName">Gone in Schwifty Seconds</div>
-                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        <div class="qName">BE GONE, EVIL LAUNDRY!</div>
+                        <div class="qDesc">Do a load of laundry</div>
                         <button><img src="img/arrowRight.png"></button>
                     </div>
 
@@ -74,32 +74,170 @@
                 <div id="completedQ">
                     <div class="heading">COMPLETED QUESTS</div>
                     <div class="item">
-                        <div class="qName">Gone in Schwifty Seconds</div>
-                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
-                        <button><img src="img/arrowRight.png"></button>
+                        <div class="qHolder">
+                            <div class="qName">Gone in Schwifty Seconds</div>
+                            <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        </div>
+                        
+                        <div class="reached">
+                            <p>Completed:</p>
+                            <p>07/14/15</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                        <div class="qName">Gone in Schwifty Seconds</div>
-                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
-                        <button><img src="img/arrowRight.png"></button>
+                        <div class="qHolder">
+                            <div class="qName">Gone in Schwifty Seconds</div>
+                            <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        </div>
+                        <div class="reached">
+                            <p>Completed:</p>
+                            <p>07/14/15</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                        <div class="qName">Gone in Schwifty Seconds</div>
-                        <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
-                        <button><img src="img/arrowRight.png"></button>
+                        <div class="qHolder">
+                            <div class="qName">Gone in Schwifty Seconds</div>
+                            <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        </div>
+                        <div class="reached">
+                            <p>Completed:</p>
+                            <p>07/14/15</p>
+                        </div>
                     </div>
 
                 </div>
             </div><!-- end of quest page -->
             <div class="page p2">
             
+                <h1>NEW QUEST!</h1>
                 <img src="img/illustration-01.png">
+                
+                <h3>SERENADE YOUR CAT!</h3>
+                
+                <div class="exp">
+                    20 XP
+                </div>
+                
+                <div id="btnContainer">
+                    <button class="accept">ACCEPT!</button>
+                    <button class="skip">SKIP</button>
+                </div>
             
             </div><!-- end of new quest page -->
-            <div class="page p3"></div><!-- end of profile page -->
-            <div class="page p4"></div><!-- end of settings page -->
+            <div class="page p3">
+                
+                <div id="back"><img src="img/arrowLeft.png"></div>
+                <div id="settingsBtn"><img src="img/menu.png"></div>
+            
+                <div id="profileHeader">
+                    <div id="profileTop">
+                        <h1>Darles Barkley</h1>
+                        <img src="img/avatar.png">
+                        <div id="profileTopWords">
+                            
+                            <div class="level">level 4</div>
+                            <div class="motto">There's always money in the banana stand</div>
+                        </div>
+                    </div><!-- end of profileTop -->
+                </div>
+                
+                <div id="completedQ">
+                    <div class="item">
+                        <div class="qHolder">
+                            <div class="qName">LEVEL 4</div>
+                            <div class="qDesc">Sweep/vacuum a room in under 60 seconds</div>
+                        </div>
+                        <div class="reached">
+                            <p>Reached:</p>
+                            <p>08/05/15</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="qHolder">
+                            <div class="qName">LEVEL 3</div>
+                            <div class="qDesc">Call your parents to chat</div>
+                        </div>
+                        <div class="reached">
+                            <p>Reached:</p>
+                            <p>07/25/15</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="qHolder">
+                            <div class="qName">LEVEL 2</div>
+                            <div class="qDesc">Defeated the evil laundry</div>
+                        </div>
+                        <div class="reached">
+                            <p>Reached:</p>
+                            <p>07/14/15</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="qHolder">
+                            <div class="qName">LEVEL 1</div>
+                            <div class="qDesc">Joined Epic Quest</div>
+                        </div>
+                        <div class="reached">
+                            <p>Reached:</p>
+                            <p>07/12/15</p>
+                        </div>
+                    </div>
+
+                </div>
+            
+            </div><!-- end of profile page -->
+            <div class="page p4">
+                <div id="backToProfile"><img src="img/arrowLeft.png"></div>
+                
+                <div id="settingsTop">
+                    <h1>SETTINGS</h1>
+                </div>
+                
+                <div id="completedQ">
+                    <div class="item">
+                        <div class="qHolder">
+                            <div class="qName">DIFFICULTY</div>
+                            <div class="qDesc">Current Difficulty Setting: <em>EPIC!</em></div>
+                        </div>
+                    </div>
+
+                    <div class="itemAvatar">
+                        <div class="qHolder">
+                            <div class="qName">AVATAR</div>
+                            <div class="qDesc">Current Avatar:</div>
+                            <div class="qDesc">Current Background Color:</div>
+                            <div id="orange"></div>
+                            <div id="green"></div>
+                            <div id="red"></div>
+                            <div id="teal"></div>
+                        </div>
+                        <div class="avatarSettings">
+                            <img src="img/avatar.png">
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="qHolder">
+                            <div class="qName">USERNAME</div>
+                            <div class="qDesc">Darles Barkley</div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="qHolder">
+                            <div class="qName">MOTTO</div>
+                            <div class="qDesc">There's always money in the banana stand</div>
+                        </div>
+                    </div>
+
+                </div>
+            
+            </div><!-- end of settings page -->
             
         </div>
 

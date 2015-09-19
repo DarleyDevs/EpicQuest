@@ -8,6 +8,14 @@ $lightGray: #535454;
 $medGray: #383838;
 $jacaranda: #630460;
 $tyrian: #6C0240;
+$dkOrange: #ff5f3d;
+$ltOrange: #f4a469;
+$dkGreen: #1b6d0d;
+$ltGreen: #0f9146;
+$dkRed: #700707;
+$ltRed: #e02727;
+$dkTeal: #044e63;
+$ltTeal: #24c285;
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -130,6 +138,17 @@ body {
                                 text-transform: uppercase;
                             }
                             .qDesc {}
+                            .qHolder {
+                                display: inline-block;
+                            }
+                            .reached {
+                                display: inline-block;
+                                float: right;
+                                p:last-of-type {
+                                    font-size: 18px;
+                                    font-weight: 900;
+                                }
+                            }
                             button {
                                 background-color: $astral;
                                 position: absolute;
@@ -151,10 +170,292 @@ body {
             }
             .p2 {
                 background: linear-gradient($bright, $astral);
+                  h1 {
+                      color: $gallery;
+                      font-size: 75px;
+                      font-weight: 900;
+                      text-align: center;
+                      margin-top: 115px;
+                  }
+                  h3 {
+                      color: $gallery;
+                      font-size: 40px;
+                      font-weight: 900;
+                      display: block;
+                      text-align: center;
+                      width: 280px;
+                      margin: 16px auto;
+                  }
+                  .exp {
+                      color: $gallery;
+                      font-size: 60px;
+                      font-weight: 900;
+                      text-align: center;
+                      width: 440px;
+                      padding: 10px;
+                      margin: 0 auto;
+                      border-top: 5px solid $gallery;
+                  }
                   img {
                       width: 311px;
                       margin: 0 auto;
+                      display: block;
+                      border-radius: 300px;
+                      border: 6px solid $gallery;
+                      box-shadow: 0px 0px 5px $cod;
                   }
+                  #btnContainer {
+                      width: 490px;
+                      margin: 0 auto;
+                      color: $gallery;
+                      font-size: 40px;
+                      font-weight: 900;
+                        .accept {
+                            width: 210px;
+                            height: 90px;
+                            background: linear-gradient($astro, $congress);
+                            border: none;
+                            box-shadow: 0px 0px 5px $cod;
+                        }
+                        .skip {
+                            width: 210px;
+                            height: 90px;
+                            background: linear-gradient($jacaranda, $tyrian);
+                            border: none;
+                            float: right;
+                            box-shadow: 0px 0px 5px $cod;
+                        }
+                  }
+            }
+            .p3 {
+                background: $gallery;
+                position: relative;
+                  #back {
+                      height: 62px;
+                      width: 62px;
+                      background-color: $astral;
+                      border-radius: 62px;
+                      padding: 13px;
+                      display: block;
+                      position: absolute;
+                      top: 25px;
+                      left: 25px;
+                        img {
+                            width: 35px;
+                        }
+                  }
+                  #settingsBtn {
+                      height: 62px;
+                      width: 62px;
+                      background-color: $astral;
+                      border-radius: 62px;
+                      padding: 13px;
+                      display: block;
+                      position: absolute;
+                      float: right;
+                      top: 25px;
+                      right: 25px;
+                        img {
+                            width: 35px;
+                        }
+                  }
+                  h1 {
+                      color: $gallery;
+                      font-size: 55px;
+                      font-weight: 900;
+                      text-align: center;
+                      margin: 0;
+                      text-transform: uppercase;
+                  }
+                  #profileHeader {
+                      background: linear-gradient($jacaranda, $tyrian);
+                      margin: 0;
+                      height: 545px;
+                        #profileTop {
+                            height: 300px;
+                            padding-top: 115px;
+                            margin: 0;
+                            color: $gallery;
+                        }
+                        img {
+                            border-radius: 121px;
+                            width: 242px;
+                            border: solid 5px $gallery;
+                            display: inline-block;
+                            position: relative;
+                            margin-top: 50px;
+                            margin-left: 25px;
+                        }
+                  }
+                  #profileTopWords{
+                    padding-top: 20px;
+                    display: inline-block;
+                    position: relative;
+                    text-align: right;
+                    float: right;
+                    margin-right: 25px;
+                        .level {
+                            margin-top: 100px;
+                            font-size: 40px;
+                            text-transform: lowercase;
+                            font-weight: 900;
+                        }
+                        .motto {
+                            width: 200px;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                        }
+                }
+                
+                .heading {
+                        background: linear-gradient($medGray, $lightGray);
+                        height: 75px;
+                        width: 100%;
+                        color: $gallery;
+                        text-align: center;
+                        font-weight: 900;
+                        font-size: 30px;
+                        line-height: 75px;
+                    }
+                    .item {
+                        height: 100px;
+                        border-bottom: $lightGray + 100 dashed 3px;
+                        padding: 25px;
+                        position: relative;
+                            .qName {
+                                color: $cod;
+                                font-weight: 900;
+                                font-size: 24px;
+                                text-transform: uppercase;
+                            }
+                            .qDesc {}
+                    }
+                    .item:last-child {
+                        border-bottom: none;
+                    }
+                    .qHolder {
+                        display: inline-block;
+                    }
+                    .reached {
+                        display: inline-block;
+                        float: right;
+                        p:last-of-type {
+                            font-size: 18px;
+                            font-weight: 900;
+                        }
+                    }
+            }
+            .p4 {
+                background: $gallery;
+                position: relative;
+                  #backToProfile {
+                      height: 62px;
+                      width: 62px;
+                      background-color: $astral;
+                      border-radius: 62px;
+                      padding: 13px;
+                      display: block;
+                      position: absolute;
+                      top: 25px;
+                      z-index: 200;
+                      left: 25px;
+                        img {
+                            width: 35px;
+                        }
+                  }
+                  #settingsTop {
+                        background: linear-gradient($bright, $astral);
+                        height: 291px;
+                        width: 100%;
+                        color: $gallery;
+                        text-align: center;
+                        position: relative;
+                        margin-top: 0;
+                        padding-top: 115px;
+                        font-weight: 900;
+                        font-size: 30px;
+                        line-height: 75px;
+                            h1 {
+                                margin: 0;
+                                color: $gallery;
+                                font-size: 75px;
+                                font-weight: 900;
+                                text-align: center;
+                            }
+                    }
+                    .item {
+                        height: 100px;
+                        border-bottom: $lightGray + 100 dashed 3px;
+                        padding: 25px;
+                        position: relative;
+                            .qName {
+                                color: $cod;
+                                font-weight: 900;
+                                font-size: 24px;
+                                text-transform: uppercase;
+                            }
+                            .qDesc {}
+                    }
+                    .item:last-child {
+                        border-bottom: none;
+                    }
+                    .itemAvatar {
+                        height: 170px;
+                        border-bottom: $lightGray + 100 dashed 3px;
+                        padding: 25px;
+                        position: relative;
+                            .qName {
+                                color: $cod;
+                                font-weight: 900;
+                                font-size: 24px;
+                                text-transform: uppercase;
+                            }
+                            .qDesc {
+                              em {
+                                  font-weight: 900;
+                                  font-style: normal;
+                              }
+                            }
+                            img {
+                                position: absolute;
+                                right: 25px;
+                                top: 20px;
+                                width: 130px;
+                            }
+                            #orange {
+                                width: 50px;
+                                height: 50px;
+                                border: 5px solid $astral;
+                                margin-top: 5px;
+                                margin-right: 5px;
+                                display: inline-block;
+                                background: linear-gradient($dkOrange, $ltOrange);
+                            }
+                            #green {
+                                width: 50px;
+                                height: 50px;
+                                margin-top: 5px;
+                                margin-right: 5px;
+                                display: inline-block;
+                                background: linear-gradient($dkGreen, $ltGreen);
+                            }
+                            #red {
+                                width: 50px;
+                                height: 50px;
+                                margin-top: 5px;
+                                margin-right: 5px;
+                                display: inline-block;
+                                background: linear-gradient($dkRed, $ltRed);
+                            }
+                            #teal {
+                                width: 50px;
+                                height: 50px;
+                                margin-top: 5px;
+                                margin-right: 5px;
+                                display: inline-block;
+                                background: linear-gradient($dkTeal, $ltTeal);
+                            }
+                    }
             }
         }
         

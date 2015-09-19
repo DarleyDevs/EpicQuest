@@ -102,6 +102,14 @@ body {
           font-weight: 900;
           font-size: 24px;
           text-transform: uppercase; }
+        #mainContainer #pageContainer .p1 .item .qHolder {
+          display: inline-block; }
+        #mainContainer #pageContainer .p1 .item .reached {
+          display: inline-block;
+          float: right; }
+          #mainContainer #pageContainer .p1 .item .reached p:last-of-type {
+            font-size: 18px;
+            font-weight: 900; }
         #mainContainer #pageContainer .p1 .item button {
           background-color: #348AA7;
           position: absolute;
@@ -118,8 +126,244 @@ body {
         border-bottom: none; }
     #mainContainer #pageContainer .p2 {
       background: linear-gradient(#00bfff, #348AA7); }
+      #mainContainer #pageContainer .p2 h1 {
+        color: #EFEFEF;
+        font-size: 75px;
+        font-weight: 900;
+        text-align: center;
+        margin-top: 115px; }
+      #mainContainer #pageContainer .p2 h3 {
+        color: #EFEFEF;
+        font-size: 40px;
+        font-weight: 900;
+        display: block;
+        text-align: center;
+        width: 280px;
+        margin: 16px auto; }
+      #mainContainer #pageContainer .p2 .exp {
+        color: #EFEFEF;
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+        width: 440px;
+        padding: 10px;
+        margin: 0 auto;
+        border-top: 5px solid #EFEFEF; }
       #mainContainer #pageContainer .p2 img {
         width: 311px;
-        margin: 0 auto; }
+        margin: 0 auto;
+        display: block;
+        border-radius: 300px;
+        border: 6px solid #EFEFEF;
+        box-shadow: 0px 0px 5px #0A0A0A; }
+      #mainContainer #pageContainer .p2 #btnContainer {
+        width: 490px;
+        margin: 0 auto;
+        color: #EFEFEF;
+        font-size: 40px;
+        font-weight: 900; }
+        #mainContainer #pageContainer .p2 #btnContainer .accept {
+          width: 210px;
+          height: 90px;
+          background: linear-gradient(#033860, #004385);
+          border: none;
+          box-shadow: 0px 0px 5px #0A0A0A; }
+        #mainContainer #pageContainer .p2 #btnContainer .skip {
+          width: 210px;
+          height: 90px;
+          background: linear-gradient(#630460, #6C0240);
+          border: none;
+          float: right;
+          box-shadow: 0px 0px 5px #0A0A0A; }
+    #mainContainer #pageContainer .p3 {
+      background: #EFEFEF;
+      position: relative; }
+      #mainContainer #pageContainer .p3 #back {
+        height: 62px;
+        width: 62px;
+        background-color: #348AA7;
+        border-radius: 62px;
+        padding: 13px;
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 25px; }
+        #mainContainer #pageContainer .p3 #back img {
+          width: 35px; }
+      #mainContainer #pageContainer .p3 #settingsBtn {
+        height: 62px;
+        width: 62px;
+        background-color: #348AA7;
+        border-radius: 62px;
+        padding: 13px;
+        display: block;
+        position: absolute;
+        float: right;
+        top: 25px;
+        right: 25px; }
+        #mainContainer #pageContainer .p3 #settingsBtn img {
+          width: 35px; }
+      #mainContainer #pageContainer .p3 h1 {
+        color: #EFEFEF;
+        font-size: 55px;
+        font-weight: 900;
+        text-align: center;
+        margin: 0;
+        text-transform: uppercase; }
+      #mainContainer #pageContainer .p3 #profileHeader {
+        background: linear-gradient(#630460, #6C0240);
+        margin: 0;
+        height: 545px; }
+        #mainContainer #pageContainer .p3 #profileHeader #profileTop {
+          height: 300px;
+          padding-top: 115px;
+          margin: 0;
+          color: #EFEFEF; }
+        #mainContainer #pageContainer .p3 #profileHeader img {
+          border-radius: 121px;
+          width: 242px;
+          border: solid 5px #EFEFEF;
+          display: inline-block;
+          position: relative;
+          margin-top: 50px;
+          margin-left: 25px; }
+      #mainContainer #pageContainer .p3 #profileTopWords {
+        padding-top: 20px;
+        display: inline-block;
+        position: relative;
+        text-align: right;
+        float: right;
+        margin-right: 25px; }
+        #mainContainer #pageContainer .p3 #profileTopWords .level {
+          margin-top: 100px;
+          font-size: 40px;
+          text-transform: lowercase;
+          font-weight: 900; }
+        #mainContainer #pageContainer .p3 #profileTopWords .motto {
+          width: 200px;
+          font-size: 14px;
+          text-transform: uppercase; }
+      #mainContainer #pageContainer .p3 .heading {
+        background: linear-gradient(#383838, #535454);
+        height: 75px;
+        width: 100%;
+        color: #EFEFEF;
+        text-align: center;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 75px; }
+      #mainContainer #pageContainer .p3 .item {
+        height: 100px;
+        border-bottom: #b7b8b8 dashed 3px;
+        padding: 25px;
+        position: relative; }
+        #mainContainer #pageContainer .p3 .item .qName {
+          color: #0A0A0A;
+          font-weight: 900;
+          font-size: 24px;
+          text-transform: uppercase; }
+      #mainContainer #pageContainer .p3 .item:last-child {
+        border-bottom: none; }
+      #mainContainer #pageContainer .p3 .qHolder {
+        display: inline-block; }
+      #mainContainer #pageContainer .p3 .reached {
+        display: inline-block;
+        float: right; }
+        #mainContainer #pageContainer .p3 .reached p:last-of-type {
+          font-size: 18px;
+          font-weight: 900; }
+    #mainContainer #pageContainer .p4 {
+      background: #EFEFEF;
+      position: relative; }
+      #mainContainer #pageContainer .p4 #backToProfile {
+        height: 62px;
+        width: 62px;
+        background-color: #348AA7;
+        border-radius: 62px;
+        padding: 13px;
+        display: block;
+        position: absolute;
+        top: 25px;
+        z-index: 200;
+        left: 25px; }
+        #mainContainer #pageContainer .p4 #backToProfile img {
+          width: 35px; }
+      #mainContainer #pageContainer .p4 #settingsTop {
+        background: linear-gradient(#00bfff, #348AA7);
+        height: 291px;
+        width: 100%;
+        color: #EFEFEF;
+        text-align: center;
+        position: relative;
+        margin-top: 0;
+        padding-top: 115px;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 75px; }
+        #mainContainer #pageContainer .p4 #settingsTop h1 {
+          margin: 0;
+          color: #EFEFEF;
+          font-size: 75px;
+          font-weight: 900;
+          text-align: center; }
+      #mainContainer #pageContainer .p4 .item {
+        height: 100px;
+        border-bottom: #b7b8b8 dashed 3px;
+        padding: 25px;
+        position: relative; }
+        #mainContainer #pageContainer .p4 .item .qName {
+          color: #0A0A0A;
+          font-weight: 900;
+          font-size: 24px;
+          text-transform: uppercase; }
+      #mainContainer #pageContainer .p4 .item:last-child {
+        border-bottom: none; }
+      #mainContainer #pageContainer .p4 .itemAvatar {
+        height: 170px;
+        border-bottom: #b7b8b8 dashed 3px;
+        padding: 25px;
+        position: relative; }
+        #mainContainer #pageContainer .p4 .itemAvatar .qName {
+          color: #0A0A0A;
+          font-weight: 900;
+          font-size: 24px;
+          text-transform: uppercase; }
+        #mainContainer #pageContainer .p4 .itemAvatar .qDesc em {
+          font-weight: 900;
+          font-style: normal; }
+        #mainContainer #pageContainer .p4 .itemAvatar img {
+          position: absolute;
+          right: 25px;
+          top: 20px;
+          width: 130px; }
+        #mainContainer #pageContainer .p4 .itemAvatar #orange {
+          width: 50px;
+          height: 50px;
+          border: 5px solid #348AA7;
+          margin-top: 5px;
+          margin-right: 5px;
+          display: inline-block;
+          background: linear-gradient(#ff5f3d, #f4a469); }
+        #mainContainer #pageContainer .p4 .itemAvatar #green {
+          width: 50px;
+          height: 50px;
+          margin-top: 5px;
+          margin-right: 5px;
+          display: inline-block;
+          background: linear-gradient(#1b6d0d, #0f9146); }
+        #mainContainer #pageContainer .p4 .itemAvatar #red {
+          width: 50px;
+          height: 50px;
+          margin-top: 5px;
+          margin-right: 5px;
+          display: inline-block;
+          background: linear-gradient(#700707, #e02727); }
+        #mainContainer #pageContainer .p4 .itemAvatar #teal {
+          width: 50px;
+          height: 50px;
+          margin-top: 5px;
+          margin-right: 5px;
+          display: inline-block;
+          background: linear-gradient(#044e63, #24c285); }
 
 /*# sourceMappingURL=proto.css.map */

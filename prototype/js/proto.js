@@ -11,6 +11,10 @@ $(document).ready(function() {
     var back2 = $('#backToProfile');
     var scroller = $('#pageContainer');
     var mainAv = $('#mainAv');
+  
+    var goToActive = $('#activeQ button');
+  
+    var accept = $('.p2 .accept, .p2 .skip');
     
     $('.loading').delay(1500).fadeOut('slow');
     
@@ -25,12 +29,25 @@ $(document).ready(function() {
             left: '0'
         });
     });
+  
+    accept.click(function(){
+        scroller.animate({
+            left: '0'
+        });
+    });
     
     p2.click(function(){
         scroller.animate({
             left: '-540px'
         });
     });
+  
+    goToActive.click(function(){
+        scroller.animate({
+            left: '-540px'
+        });
+    });
+  
     
     p3.click(function(){
         scroller.animate({

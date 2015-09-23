@@ -33,7 +33,7 @@ body.fp-viewing-firstPage, body.fp-viewing-secondPage, body.fp-viewing-thirdPage
   .navbar a {
     color: #EFEFEF;
     font-weight: 900; }
-  .navbar a:hover {
+  .navbar li a:hover {
     color: #0A0A0A;
     border-bottom: 10px solid #348AA7; }
   .navbar ul li {
